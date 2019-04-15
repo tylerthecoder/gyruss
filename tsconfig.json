@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "experimentalDecorators": true,
+      "pretty": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "removeComments": true,
+      "preserveConstEnums": false,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "target": "esnext",
+      "outDir": "bin"
+  },
+  "include": ["./src/**/*"],
+  "lib": ["DOM", "es6"],
+  "exclude": [
+      "node_modules"
+  ]
+}
